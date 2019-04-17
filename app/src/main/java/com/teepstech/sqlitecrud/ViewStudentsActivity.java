@@ -47,7 +47,6 @@ public class ViewStudentsActivity extends AppCompatActivity {
             LinearLayout child = new LinearLayout(this);
             child.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
             child.setOrientation(LinearLayout.HORIZONTAL);
-            //child.setGravity(Gravity.CENTER);
 
             TextView name = new TextView(this);
             TextView number = new TextView(this);
@@ -71,6 +70,7 @@ public class ViewStudentsActivity extends AppCompatActivity {
 
 
         }while(cr.moveToNext());
+        
         Log.d("DEBUG", "COUNT: "+count);
 
     }

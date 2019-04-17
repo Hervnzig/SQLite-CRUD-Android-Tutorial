@@ -29,6 +29,5 @@ public class UpdateStudentActivity extends AppCompatActivity {
         oldNameET.setText("");
         newNameET.setText("");
         mobileET.setText("");
-        System.out.println("Done");
     }
 }

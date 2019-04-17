@@ -17,6 +17,7 @@
         android:textSize="40dp"
         android:layout_gravity="center"
         android:textStyle="bold"/>
+    <!-- This GUI is created dynamically. See ViewStudentsActivity. java-->
 
 
 </android.widget.LinearLayout>
